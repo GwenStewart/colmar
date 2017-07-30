@@ -1,0 +1,180 @@
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: dimgrey;
+  max-width: 100%;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  height: 4rem;
+  position: fixed;
+  z-index: 20;
+  background-color: white;
+  max-width: 100%;
+  justify-content: space-between;
+}
+
+header .desktop {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header #colmarlogo {
+  padding-left: 1.5rem;
+}
+
+nav {
+  text-align: right;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+ul {
+  display: flex;
+}
+
+nav li {
+  padding-left: 1rem;
+}
+
+#headernav {
+  align-items: flex-end;
+}
+
+header .mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 760px) {
+  header .desktop {
+    display: none;
+  }
+
+  header .mobile {
+    display: block;
+    width: 100%;
+  }
+
+  header .content {
+    padding: .5rem 0;
+  }
+
+  header .mobile ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+
+  header .mobile li {
+    padding: 0;
+  }
+
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 4rem;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.main-content {
+  max-width: 100%;
+  border-left: 1px solid dimgrey;
+  border-right: 1px solid dimgrey;
+  position: relative;
+  top: 4rem;
+  flex-direction: column;
+}
+
+.section {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+}
+
+.button {
+  background-color: gray;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 0.5rem 0 0.5rem 0;
+  max-width: 18rem;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.course {
+  background-color: white;
+  max-height: 300px;
+  max-width: 300px;
+}
+
+.course img {
+  max-width: 100%;
+  max-height: 45%;
+}
+
+.link {
+  color: blue;
+}
+
+.aside {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  line-height: 2rem;
+}
+
+#banner,
+#speakers,
+#fisma {
+  background-color: gainsboro;
+}
+
+#bannerimage,
+#maininfo,
+#video {
+  max-width: 60%;
+  max-height: auto;
+}
+
+#bannerimage img {
+  max-width: 100%;
+  padding: 2rem 2.5rem 2rem 1.5rem;
+}
+
+#bannertxt {
+  max-width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+#courseinfo {
+  flex-direction: column;
+  background-color: whitesmoke;
+}
+
+#centraltitle {
+  text-align: center;
+}
