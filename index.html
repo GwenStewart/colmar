@@ -197,11 +197,13 @@
         <div class=desktop_section>
           <div id=thesisvideo>
               <div class=video>
+                  <!-- commented out the play button over the video as can't get this to work and need to submit
                   <div id=playbutton>
-                    <span id=playbuttoncontainer></span>
+                    <span id=playbuttoncontainer>
                     <a><img src="./resources/images/playbutton2.png"/></a>
-                  </div>
-                  <video poster="/images/playbutton2.png" id=video autoplay controls>
+                    </span>
+                  </div> -->
+                  <video id=video autoplay controls>
                       <source src="./resources/videos/thesis.mp4" type="video/mp4">
                           Your browser does not support the video tag.
                   </video>
@@ -239,12 +241,18 @@
         <h1 class=centraltitle>Thesis Exhibits</h1>
         <div class=mobile_section>
           <div id=mobile_thesisvideo>
+              <!-- commented out as above
               <div class=mobile_video>
-                  <video poster="/images/playbutton2.png" id=video>
+                <div id=playbutton>
+                  <span id=playbuttoncontainer>
+                  <a><img src="./resources/images/playbutton2.png"/></a>
+                  </span>
+                </div>
+              -->
+                  <video id=video autoplay controls>
                       <source src="./resources/videos/thesis.mp4" type="video/mp4">
                           Your browser does not support the video tag.
                   </video>
-                  <div id=play></div>
               </div>
           </div>
           <div id=sidebar2>

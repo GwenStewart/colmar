@@ -300,19 +300,34 @@ p {
   padding-right: 1rem;
 }
 
-#playbutton {
-    /*background: url(../../resources/images/playbutton2.png) center center no-repeat;*/
+/* #playbutton {
+    /*background: url(../../resources/images/playbutton2.png) center center no-repeat;
     position: absolute;
+    display: block;
+    align-items: center;
+    overflow: hidden;
     max-width: 100%;
     height: auto;
     background-color: grey;
     z-index: 10;
 }
 
-#playbutton:click {
+#playbutton:hover {
+  transition-property: background-color;
   transition-duration: 1s;
   transition-delay: 0.5s;
 }
+
+#playbutton:hover  {
+  /*left: -100%;
+  background-color: red
+
+}*/
+
+/*#playbutton:click {
+  transition-duration: 1s;
+  transition-delay: 0.5s;
+}*/
 
 #video {
   max-width: 100%;
