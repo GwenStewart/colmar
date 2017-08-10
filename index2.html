@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Colmar Academy</title>
+    <link href="https://fonts.googleapis.com/css?family=Damion" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,600,700,bold" rel="stylesheet">
     <link rel="stylesheet" href="./resources/css/reset.css" type="text/css">
     <link href="./resources/css/style.css" type="text/css" rel="stylesheet">
@@ -40,6 +42,7 @@
       </div>
     </header>
 
+    <!-- to do change classes to be the same and ids to be individual -->
 
     <!-- Main Content-->
     <div class=main-content>
@@ -194,6 +197,12 @@
         <div class=desktop_section>
           <div id=thesisvideo>
               <div class=video>
+                  <!-- commented out the play button over the video as can't get this to work and need to submit
+                  <div id=playbutton>
+                    <span id=playbuttoncontainer>
+                    <a><img src="./resources/images/playbutton2.png"/></a>
+                    </span>
+                  </div> -->
                   <video id=video autoplay controls>
                       <source src="./resources/videos/thesis.mp4" type="video/mp4">
                           Your browser does not support the video tag.
@@ -232,7 +241,14 @@
         <h1 class=centraltitle>Thesis Exhibits</h1>
         <div class=mobile_section>
           <div id=mobile_thesisvideo>
+              <!-- commented out as above
               <div class=mobile_video>
+                <div id=playbutton>
+                  <span id=playbuttoncontainer>
+                  <a><img src="./resources/images/playbutton2.png"/></a>
+                  </span>
+                </div>
+              -->
                   <video id=video autoplay controls>
                       <source src="./resources/videos/thesis.mp4" type="video/mp4">
                           Your browser does not support the video tag.
@@ -264,7 +280,7 @@
     </div>
 
     <!-- Footer-->
-    <footer class=desktop role=contentinfo>
+    <footer role=contentinfo>
       <p id=copyright>© Copyright 2016 Colmar Academy. All rights reserved</p>
       <nav class=desktop id=footernav role=navigation>
         <ul siderole="presentation">
@@ -273,6 +289,5 @@
         </ul>
       </nav>
     </footer>
-
   </body>
 </html>
